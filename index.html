@@ -8,15 +8,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="mx-40">
+<body class="mx-10 lg:mx-40">
     <header>
         <nav class="flex justify-between items-center mt-7">
-            <img src="media/logo.png" alt="">
+            <img src="media/logo.png" alt="" class="w-20 md:w-auto">
         <ul class="flex gap-7 text-lg text-[#8987A1]">
-                <li class="hover:font-bold hover:text-black"><a href="">Home</a></li>
-                <li class="hover:font-bold hover:text-black"><a href="">Shop</a></li>
-                <li class="hover:font-bold hover:text-black"><a href="">About us</a></li>
-                <li class="hover:font-bold hover:text-black"><a href=""><i class="fa-solid fa-cart-plus text-xl"></i> Cart ($56)</a></li>
+                <li class="hidden md:block font-bold text-black"><a href="">Home</a></li>
+                <li class="hidden md:block hover:font-bold hover:text-black"><a href="">Shop</a></li>
+                <li class="hidden md:block hover:font-bold hover:text-black"><a href="">About us</a></li>
+                <li class="text-black"><a href=""><i class="fa-solid fa-cart-plus text-xl"></i> Cart ($56)</a></li>
             </ul>
         </nav>
     </header>
